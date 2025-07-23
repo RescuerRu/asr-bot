@@ -1,5 +1,5 @@
 <?php
-
+$botToken = file_get_contents(".gitignore");
 $input = file_get_contents("php://input");
 $update = json_decode($input, true);       
 function post($url,$refer){
