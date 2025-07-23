@@ -1,5 +1,5 @@
 <?php
-$botToken = "7799138398:AAGIwv4dEgVxdGdbISe4WCj9gmjrO9HygKw";
+
 $input = file_get_contents("php://input");
 $update = json_decode($input, true);       
 function post($url,$refer){
